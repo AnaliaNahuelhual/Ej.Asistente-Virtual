@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre Nosotros - Asistente Virtual Administrativo Contable</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="navbar">
+      <div class="contenedor navbar-contenedor">
+        <h1 class="logo">Asistente Virtual Administrativo Contable</h1>
+        <nav class="nav-links" aria-label="Navegación principal">
+          <ul class="nav-list">
+            <li><a href="index.html" class="nav-enlace">Inicio</a></li>
+            <li><a href="index.html#servicios" class="nav-enlace">Servicios</a></li>
+            <li><a href="nosotros.html" class="nav-enlace activa">Sobre Nosotros</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main-contenido">
+      <div class="contenedor">
+        <section class="seccion-servicios">
+          <div class="seccion-encabezado">
+            <h2 class="seccion-titulo">Sobre Nosotros</h2>
+            <p class="seccion-descripcion">
+              Acompañamos a profesionales independientes, pymes y emprendedores brindando soluciones contables y administrativas integrales.
+            </p>
+          </div>
+
+          <div class="grilla-nosotros">
+            <!-- Misión -->
+            <article class="card-nosotros">
+              <div class="card-icono">🎯</div>
+              <h3>Misión</h3>
+              <p>
+                Simplificar la gestión administrativa e impositiva de nuestros clientes a través de un servicio personalizado, ágil y digital, permitiéndoles concentrarse de lleno en el crecimiento de sus proyectos.
+              </p>
+            </article>
+
+            <!-- Visión -->
+            <article class="card-nosotros">
+              <div class="card-icono">🚀</div>
+              <h3>Visión</h3>
+              <p>
+                Ser el soporte contable y de asistencia virtual de referencia en la región, reconocidos por nuestra eficiencia operativa, constante actualización fiscal e innovación tecnológica continua.
+              </p>
+            </article>
+
+            <!-- Valores -->
+            <article class="card-nosotros">
+              <div class="card-icono">🤝</div>
+              <h3>Valores</h3>
+              <ul class="lista-valores">
+                <li><strong>Transparencia:</strong> Claridad absoluta en cada trámite y reporte fiscal.</li>
+                <li><strong>Compromiso:</strong> Cumplimiento estricto de plazos y vencimientos impositivos.</li>
+                <li><strong>Confidencialidad:</strong> Protección y resguardo profesional de datos contables.</li>
+                <li><strong>Empatía:</strong> Comunicación cercana adaptada a las necesidades de cada cliente.</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- FOOTER CON BOTONES DE SEGURIDAD -->
+    <footer class="footer">
+      <div class="contenedor">
+        <div class="footer-contacto">
+          <h4 class="contacto-titulo">Canales de Contacto Seguro</h4>
+          <div class="botones-contacto-seguro">
+            <button
+              type="button"
+              class="btn-contacto-seguro"
+              id="btn-revelar-mail"
+              aria-label="Mostrar correo electrónico"
+            >
+              <span class="contacto-icono">✉️</span>
+              <span id="texto-mail">Ver Correo Electrónico</span>
+            </button>
+
+            <button
+              type="button"
+              class="btn-contacto-seguro"
+              id="btn-revelar-tel"
+              aria-label="Mostrar número de teléfono"
+            >
+              <span class="contacto-icono">📞</span>
+              <span id="texto-tel">Ver Teléfono</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Se incluye app.js para activar los botones de seguridad del footer -->
+    <script src="app.js"></script>
+  </body>
+</html>
